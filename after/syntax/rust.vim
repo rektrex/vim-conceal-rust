@@ -5,7 +5,7 @@ endif
 setlocal conceallevel=1
 syntax clear rustOperator
 
-syntax match rustOperator "=\@<!===\@!" conceal cchar=≖
+syntax match rustOperator "=\@<!===\@!" conceal cchar=═
 syntax match rustOperator "!=" conceal cchar=≠
 syntax match rustOperator "<=" conceal cchar=≤
 syntax match rustOperator ">=" conceal cchar=≥
